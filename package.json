@@ -1,0 +1,25 @@
+{
+  "name": "hello-express-server",
+  "version": "1.0.0",
+  "description": "Node.js Express tutorial server with two GET endpoints",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest --watchAll=false"
+  },
+  "keywords": [
+    "express",
+    "nodejs",
+    "tutorial",
+    "rest-api"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "jest": "^30.0.0",
+    "supertest": "^7.0.0"
+  }
+}
